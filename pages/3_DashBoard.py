@@ -11,7 +11,8 @@ st.markdown("""
 На этой странице представлены основные результаты анализа данных и оценки моделей машинного обучения для задачи прогнозирования длительности поездки.
 """)
 
-image_dir = "C:\\Users\\computer\\Desktop\\RGR_ML\\Pictures"
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+image_dir = "../Pictures"
 
 # Функция для отображения изображения с подписью
 def display_image_with_caption(image_path, caption):
