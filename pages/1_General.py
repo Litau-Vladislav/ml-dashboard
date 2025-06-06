@@ -1,6 +1,5 @@
 import streamlit as st
 
-# Убедись, что set_page_config первая!
 st.set_page_config(page_title="Информация о студенте", layout="wide")
 
 # Заголовок
