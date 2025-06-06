@@ -165,7 +165,7 @@ if X_input is not None:
                 
                 # Прогноз
                 start_time = time.time()
-                prediction = model.predict(X_input)
+                prediction = abs(model.predict(X_input))
                 prediction_time = time.time() - start_time
                 
                 # Отображение результатов
